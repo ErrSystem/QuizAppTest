@@ -1,0 +1,107 @@
+@font-face {
+    font-family: UbuntuBold;
+    src: url(fonts/Ubuntu-Bold.ttf);
+};
+
+@font-face {
+    font-family: UbuntuLight;
+    src: url(fonts/Ubuntu-Light.ttf);
+}
+
+body {
+    background-color: #fbdb30;
+    text-align: center;
+    font-family: UbuntuBold;
+}
+
+#startPage {
+    margin-top: 200px;
+}
+
+#startPage img {
+    width: 500px;
+}
+
+#startButton {
+    transition: all ease 0.5s;
+    font-size: 20px;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: -2px 2px 5px;
+}
+
+#startButton:hover {
+    transition: all ease 0.5s;
+    box-shadow: none;
+    background-color: #fbdb30;
+    text-shadow: 1px 1px 20px;
+}
+
+#quizList {
+    display: none;
+    margin-top: 200px;
+}
+
+#quizList p {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+#quizList div {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    gap: 50px;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.answer {
+    transition: all ease 0.5s;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    border: 1px solid;
+}
+
+.answer:hover {
+    transition: all ease 0.5s;
+    box-shadow: 1px 1px 20px;
+    cursor: pointer;
+}
+
+#Congrats {
+    margin-top: 200px;
+    display: none;
+}
+
+#Congrats h1 {
+    margin-top: 60px;
+}
+
+#Congrats img {
+    width: 250px;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

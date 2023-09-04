@@ -1,0 +1,52 @@
+[
+    {
+        "question": "What is the capital of France?",
+        "answers" : [
+            "London",
+            "Paris",
+            "Berlin",
+            "Madrid"
+        ],
+        "right": 2
+    },
+    {
+        "question": "Which planet is known as the Red Planet?",
+        "answers" : [
+            "Earth",
+            "Venus",
+            "Mars",
+            "Jupiter"
+        ],
+        "right": 3
+    },
+    {
+        "question": "What is the largest mammal in the world?",
+        "answers" : [
+            "Elephant",
+            "Blue whale",
+            "Giraffe",
+            "Dolphin"
+        ],
+        "right": 2
+    },
+    {
+        "question": "What is the chemical symbol for water?",
+        "answers" : [
+            "H2O",
+            "H2",
+            "O2",
+            "Wt"
+        ],
+        "right": 1 
+    },
+    {
+        "question": "Who wrote the play 'Romeo and Juliet'?",
+        "answers" : [
+            "Charles Dickens",
+            "Jane Austen",
+            "Mark Twain",
+            "William Shakespeare"
+        ],
+        "right": 4 
+    }
+]
